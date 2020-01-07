@@ -1,0 +1,50 @@
+body {
+    background: url("/pawel-czerwinski.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #333;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+header {
+    font-size: 40px;
+    margin-top: 160px;
+    font-weight: bold;
+}
+
+header .line {
+    font-size: 45px;
+    color: #333;
+}
+
+#info {
+    font-size: 25px;
+    width: 80%;
+    margin: 50px auto 20px;
+    color: #333;
+    line-height: 1.5;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer .contact-details {
+    background-color: rgba(0, 0, 0, .4);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .contact-details:hover {
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, .2);
+    background-color: rgba(0, 0, 0, .6);
+}
