@@ -8,8 +8,8 @@ body {
 }
 
 header {
-    font-size: 40px;
-    margin-top: 160px;
+    font-size: 38px;
+    margin-top: 140px;
     font-weight: bold;
 }
 
@@ -20,11 +20,22 @@ header .line {
 
 #info {
     font-size: 25px;
-    width: 80%;
+    width: 70%;
     margin: 50px auto 20px;
     color: #333;
     line-height: 1.5;
     text-align: center;
+}
+
+#info a {
+    color: #333;
+    vertical-align: bottom;
+}
+
+#info a:hover {
+    color: #fff;
+    background-color: #333;
+    text-decoration: none;
 }
 
 footer {
