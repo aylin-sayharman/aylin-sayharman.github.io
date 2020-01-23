@@ -13,14 +13,8 @@ header {
     font-weight: bold;
 }
 
-header .line {
-    font-size: 45px;
-    color: #333;
-}
-
 #info {
     font-size: 25px;
-    width: 70%;
     margin: 50px auto 20px;
     color: #333;
     line-height: 1.5;
@@ -58,4 +52,22 @@ footer .contact-details {
 footer .contact-details:hover {
     box-shadow: 0 0 0 10px rgba(0, 0, 0, .2);
     background-color: rgba(0, 0, 0, .6);
+}
+
+@media only screen and (min-device-width: 200px) and (max-device-width: 480px) {
+    #info {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+    #info {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-device-width: 769px) and (max-device-width: 1800px) {
+    #info {
+        width: 60%;
+    }
 }
